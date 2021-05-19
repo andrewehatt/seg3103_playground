@@ -18,5 +18,10 @@
 ![image](https://user-images.githubusercontent.com/43865276/118869902-f8566380-b8b3-11eb-97db-cb73fa95cda4.png)
 
 
+#Elixir Version:
+![image](https://user-images.githubusercontent.com/43865276/118888097-327e3000-b8c9-11eb-83dd-a1f7a170483a.png)
+
+
+
 
 
