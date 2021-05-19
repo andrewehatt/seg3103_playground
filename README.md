@@ -22,6 +22,16 @@
 ![image](https://user-images.githubusercontent.com/43865276/118888097-327e3000-b8c9-11eb-83dd-a1f7a170483a.png)
 
 
+#Elixir Newmath test: 
+![image](https://user-images.githubusercontent.com/43865276/118888486-b9cba380-b8c9-11eb-8867-49b4929981df.png)
+
+
+#Mix test output :
+![image](https://user-images.githubusercontent.com/43865276/118888829-2e064700-b8ca-11eb-8b0e-196e509fb690.png)
+
+
+
+
 
 
 
