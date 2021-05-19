@@ -3,7 +3,7 @@
 #Student No: 300267051
 #Class : SEG 3013
 #Professor : Andrew Forward
-#TA : Zahra
+#TA : Zahra Kakavand
 
 #Screenshot of Java Environment on my machine:
 
