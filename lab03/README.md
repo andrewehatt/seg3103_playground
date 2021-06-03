@@ -1,4 +1,8 @@
-#
+#Student : Andrew Hatt
+#Student No: 300267051
+#Class : SEG 3013 
+#Professor : Andrew Forward
+#TA : N Bayati
 
 
 #I couldn't get this test to work in Eclipse.
@@ -11,5 +15,8 @@
 
 I then ran Computation.java with coverage. Here is the result:
 ![image](https://user-images.githubusercontent.com/43865276/120698472-1d82ce80-c47d-11eb-9cf5-613f87e78071.png)
+
+
+
 
 
