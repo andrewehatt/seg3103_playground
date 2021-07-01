@@ -13,5 +13,6 @@ Another bug with the stubs is that there should be an underscore before the ‘m
 
 2. Here is the stub code for calculating percentage, numeric, and letter grade.
 
-![](images/https://github.com/andrewehatt/seg3103_playground/blob/main/lab05/Scrnsht1.png)
+![Scrnsht1](https://user-images.githubusercontent.com/43865276/124177698-9118fb00-da7e-11eb-8073-6b9383cf726d.png)
+
 
