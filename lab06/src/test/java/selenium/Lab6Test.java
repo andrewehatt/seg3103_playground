@@ -23,6 +23,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 public class Lab6Test {
   private WebDriver driver;
   private Map<String, Object> vars;
@@ -40,7 +41,7 @@ public class Lab6Test {
   }
   @Test
   public void delete() {
-    driver.get("http://localhost:8080/login/login");
+    driver.get("http://localhost:8080/login");
     driver.manage().window().setSize(new Dimension(1382, 744));
     driver.findElement(By.id("locales")).click();
     {
@@ -53,7 +54,7 @@ public class Lab6Test {
     driver.findElement(By.id("loginPasswd")).click();
     driver.findElement(By.id("loginPasswd")).sendKeys("mypassword");
     driver.findElement(By.id("loginBtn")).click();
-    driver.close();
+    //driver.close();
     driver.findElement(By.id("loginId")).click();
     driver.findElement(By.id("loginId")).sendKeys("admin");
     driver.findElement(By.id("loginPasswd")).sendKeys("password");
@@ -63,11 +64,9 @@ public class Lab6Test {
       WebElement dropdown = driver.findElement(By.id("locales"));
       dropdown.findElement(By.xpath("//option[. = 'English']")).click();
     }
-    driver.findElement(By.id("locales")).click();
-    driver.findElement(By.id("loginId")).click();
-    driver.findElement(By.id("loginId")).sendKeys("admin");
-    driver.findElement(By.id("loginPasswd")).sendKeys("password");
-    driver.findElement(By.id("loginBtn")).click();
+    //driver.findElement(By.id("locales")).click();
+    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    driver.get("http://localhost:8080/admin");
     driver.findElement(By.id("addBook-category")).click();
     driver.findElement(By.id("addBook-category")).sendKeys("Romance");
     driver.findElement(By.id("addBook-id")).sendKeys("12345");
@@ -93,5 +92,9 @@ public class Lab6Test {
     driver.findElement(By.id("search")).click();
     driver.findElement(By.id("search")).sendKeys("Romance");
     driver.findElement(By.id("searchBtn")).click();
+
+    String expectedURL = "http://localhost:8080/admin/catalog";
+    String currentURL = driver.getCurrentUrl();
+    assertEquals(expectedURL, currentURL);
   }
 }
