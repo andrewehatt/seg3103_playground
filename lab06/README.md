@@ -12,4 +12,10 @@ Here is a screenshot showing that I downloaded Maven:
 Here is a screenshot showing my build was successful:
 ![Scrnsht3](https://user-images.githubusercontent.com/43865276/125206485-9253e000-e255-11eb-9adb-444f337fd2f9.png)
 
+Here is the result of calling mvn package -DskipTests:
+![scrnsht5](https://user-images.githubusercontent.com/43865276/125340000-ec20dc80-e31f-11eb-9c7c-1eed131df6a1.png)
+
+
+
+
 
