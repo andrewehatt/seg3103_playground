@@ -24,6 +24,8 @@ Here is the result of the successful run of the example test:
 Here is the result of Lab6Test, a test I created makeing a new book and searching for it, in action:
 ![scrnsht8](https://user-images.githubusercontent.com/43865276/125357786-17aec180-e336-11eb-8850-3d866a2e821a.png)
 
+You can fund Lab6Test.java under src/test/java/selenium in Github Lab 6
+
 
 
 
