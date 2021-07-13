@@ -27,6 +27,7 @@ Here is the result of Lab6Test, a test I created makeing a new book and searchin
 You can fund Lab6Test.java under src/test/java/selenium in Github Lab 6
 
 I wasn't sure how to get my new file Lab6Test to run with mvn test, So I copied the Test in Lab6Test.java into ExampleSeleniumTest.java. Here is the result of running mvn tests after this:
+![scrnsht9](https://user-images.githubusercontent.com/43865276/125487876-07f3cc2e-b8d5-4e50-abad-b2008f58d596.png)
 
 
 
