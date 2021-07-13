@@ -26,6 +26,9 @@ Here is the result of Lab6Test, a test I created makeing a new book and searchin
 
 You can fund Lab6Test.java under src/test/java/selenium in Github Lab 6
 
+I wasn't sure how to get my new file Lab6Test to run with mvn test, So I copied the Test in Lab6Test.java into ExampleSeleniumTest.java. Here is the result of running mvn tests after this:
+
+
 
 
 
