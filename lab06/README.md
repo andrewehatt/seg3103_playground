@@ -5,6 +5,7 @@
 #Professor : Andrew Forward
 #TA : Zahra Kakavand
 
+I couln't upload the whole Project to Github because there were more than 100 folders. To run my Selenium Test, just add the Lab6Test.java folder to the original BookstoreApp's test/selenium folder.
 
 Here is a screenshot showing that I downloaded Maven:
 ![scrnsht2](https://user-images.githubusercontent.com/43865276/125173338-cdd6a780-e18c-11eb-997b-c4f62320b1bb.png)
