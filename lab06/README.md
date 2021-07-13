@@ -24,10 +24,13 @@ Here is the result of the successful run of the example test:
 Here is the result of Lab6Test, a test I created makeing a new book and searching for it, in action:
 ![scrnsht8](https://user-images.githubusercontent.com/43865276/125357786-17aec180-e336-11eb-8850-3d866a2e821a.png)
 
-You can fund Lab6Test.java under src/test/java/selenium in Github Lab 6
+You can find Lab6Test.java under src/test/java/selenium in Github Lab 6
 
 I wasn't sure how to get my new file Lab6Test to run with mvn test, So I copied the Test in Lab6Test.java into ExampleSeleniumTest.java. Here is the result of running mvn tests after this:
 ![scrnsht9](https://user-images.githubusercontent.com/43865276/125487876-07f3cc2e-b8d5-4e50-abad-b2008f58d596.png)
+
+Finally, here is a screenshot of a Selenium Web Driver test in action
+![scrnsht10](https://user-images.githubusercontent.com/43865276/125490936-0e5ed2a0-ceb6-4907-86fd-cc26bf0d4b33.png)
 
 
 
