@@ -48,7 +48,7 @@ class CalCFrame extends JFrame implements ActionListener
                       doubleclick = false; //"" if mouse was doubleclicked
  
 public CalCFrame(String title) {
-     
+
     super(title);
     addWindowListener(new WindowAdapter() {
       public void windowClosing(WindowEvent e) {
@@ -57,27 +57,24 @@ public CalCFrame(String title) {
 
     buttonfont = new Font( "Courier", Font.PLAIN, 12 );
     setBackground( Color.lightGray );
-    
+
     //initialize colors
-    
+
     result = new JTextField( 25 );
-    getContentPane().setLayout( new FlowLayout() );        
-       
+    getContentPane().setLayout( new FlowLayout() );
+
     getContentPane().add( result );
-    
-    for ( int i = 0; i < 19; i++ ) {
-    buttons[i] = new JButton( buttonText[i] );   
+
+  //initialize and add buttons
+  for ( int i = 0; i < 19; i++ ) {
+    buttons[i] = new JButton( buttonText[i] );
     buttons[i].setFont( buttonfont );
     buttons[i].addActionListener( this );
 
       getContentPane().add( buttons[i] );
-      
-          
-    }     
-   buttons[15].setForeground( Color.red ); 
-   result.setBackground( Color.white );          
-}
 
+
+    }
    buttons[15].setForeground( Color.red ); 
    result.setBackground( Color.white );          
 }
@@ -346,11 +343,11 @@ public void showAnswer( String s )
     double answer;
     //answer = Double.valueOf(s).doubleValue();
     answer = Double.parseDouble(s);
-    if ( decnumber )    
+    if ( decnumber )
     result.setText( Double.toString(answer) );
     else
     result.setText( s );        //all output are displayed as integers at start
-        
+
 } // end showAnswer
 
 //==============================================================================
