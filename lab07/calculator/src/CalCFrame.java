@@ -65,17 +65,18 @@ public CalCFrame(String title) {
        
     getContentPane().add( result );
     
-  //initialize and add buttons  
-  for ( int i = 0; i < 19; i++ ) {
+    for ( int i = 0; i < 19; i++ ) {
     buttons[i] = new JButton( buttonText[i] );   
     buttons[i].setFont( buttonfont );
     buttons[i].addActionListener( this );
 
-    getContentPane().add( buttons[i] );
+      getContentPane().add( buttons[i] );
       
-    if (i ==2 || i ==7 || i == 12 || i == 17) {
-        getContentPane().add( new JLabel( "  " ) );
-    }
+          
+    }     
+   buttons[15].setForeground( Color.red ); 
+   result.setBackground( Color.white );          
+}
 
    buttons[15].setForeground( Color.red ); 
    result.setBackground( Color.white );          
